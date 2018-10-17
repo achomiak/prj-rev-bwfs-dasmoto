@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  background-size: cover;
+   width: 100%;
+   height: auto;
+}
+
+#banner .title h1 {
+position: relative;
+margin: 0 auto;
+text-align: center;
+color: khaki;
+font-size:100px;
+font-weight: bold;
+padding-top:18px;
+}
+
+#brushes .title h2 {
+  background-color: mediumspringgreen;
+  font-size: 32px;
+  font-weight: bold;
+  color:white;
+  padding-top:7px;
+}
+
+#pricebrushes {
+  color:blue;
+}
+
+#frames .title h2 {
+  background-color: lightcoral;
+  color:white;
+  text-align: left;
+  font-size:32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding-top:7px;
+}
+
+#priceframes {
+  color:blue;
+  font-weight: bold;
+}
+
+#paint .title h2 {
+  background-color: skyblue;
+  color:white;
+  text-align: left;
+  font-size:32px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+#pricepaint {
+  color:blue;
+  font-family: Helvetica;
+  font-weight: bold;
+}
